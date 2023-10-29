@@ -1,0 +1,18 @@
+{
+  "name": "com.kingkodepackages.custombuildtool",
+  "version": "0.0.1",
+  "displayName": "KingKodePackages: CustomBuildTool",
+  "description": "This package is used to add the a CustomBuildTool to your project.",
+  "documentationUrl": "",
+  "changelogUrl": "",
+  "licensesUrl": "",
+  "dependencies": {
+	"com.google.android.appbundle": "1.8.0"
+  },
+  "keywords": [
+    "Build"
+  ],
+  "author": {
+    "name": "KingKode"
+  }
+}
