@@ -1,0 +1,23 @@
+{
+    "name": "KingKode.InAppReview.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "GUID:4139e191aa32f459e9eb2e331225ad7e",
+        "GUID:b4318b6f3695442c4983c360248781db"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.google.play.review",
+            "expression": "1.8.1",
+            "define": "com.google.play.review"
+        }
+    ],
+    "noEngineReferences": false
+}
