@@ -6,7 +6,7 @@ You can use this package to manage your builds easily.
 
 ## How to Install
 Insert the following link into package manager:
-> https://github.com/ALI_P48/KingKodeUnityPackages.git?path=/KingKode-CustomBuildTool#v0.0.1
+> https://github.com/ALI_P48/KingKodePackages.git?path=/KingKode-CustomBuildTool#v0.0.1
 
 
 Also make sure you add the following in the main packages manifest.json file:
