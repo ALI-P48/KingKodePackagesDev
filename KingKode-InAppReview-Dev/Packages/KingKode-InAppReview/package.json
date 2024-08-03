@@ -1,0 +1,19 @@
+{
+  "name": "com.kingkode.inappreview",
+  "version": "0.0.1",
+  "displayName": "KingKode: InAppReview",
+  "description": "This package is used to implement rating and in app review",
+  "documentationUrl": "",
+  "changelogUrl": "",
+  "licensesUrl": "",
+  "dependencies": {
+    "com.google.play.review": "1.8.1"
+  },
+  "keywords": [
+    "Review",
+    "Rate"
+  ],
+  "author": {
+    "name": "KingKode"
+  }
+}

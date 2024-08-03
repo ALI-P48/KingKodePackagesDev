@@ -1,0 +1,16 @@
+{
+  "name": "com.kingkode.template",
+  "version": "0.0.1",
+  "displayName": "KingKode: Template",
+  "description": "This is a template project for developing a KingKode Unity package.",
+  "documentationUrl": "",
+  "changelogUrl": "",
+  "licensesUrl": "",
+  "keywords": [
+    "Build"
+  ],
+  "author": {
+    "name": "KingKode"
+  },
+  "hideInEditor": false
+}

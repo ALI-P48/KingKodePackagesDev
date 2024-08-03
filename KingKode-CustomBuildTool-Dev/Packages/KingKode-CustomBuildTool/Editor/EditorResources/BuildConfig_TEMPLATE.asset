@@ -1,0 +1,187 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30e18ed154b3a6e478b8694fcdc86bdc, type: 3}
+  m_Name: BuildConfig_TEMPLATE
+  m_EditorClassIdentifier: 
+  RelativeBuildFolderPath: Builds
+  ReletiveKeyStorePassPath: Builds/KeyStorePass.txt
+  BuildInfos:
+  - Name: google debug
+    FileName: google-debug
+    Conditions: []
+    PrebuildActions:
+      m_PersistentCalls:
+        m_Calls: []
+    Scenes: []
+    ResolveOnBuild: 1
+    BuildOptions: 262793
+    ScriptingImplementation: 0
+    AndroidArchitecture: 1
+    AndroidCreateSymbols: 0
+    BuildAppBundle: 0
+    Google: 0
+    Target: 13
+    TargetGroup: 7
+    Color: {r: 1, g: 0, b: 0, a: 1}
+  - Name: google release apk
+    FileName: google-release
+    Conditions: []
+    PrebuildActions:
+      m_PersistentCalls:
+        m_Calls: []
+    Scenes: []
+    ResolveOnBuild: 1
+    BuildOptions: 262280
+    ScriptingImplementation: 1
+    AndroidArchitecture: 3
+    AndroidCreateSymbols: 0
+    BuildAppBundle: 0
+    Google: 0
+    Target: 13
+    TargetGroup: 7
+    Color: {r: 1, g: 0, b: 0, a: 1}
+  - Name: google release aab
+    FileName: google-release
+    Conditions: []
+    PrebuildActions:
+      m_PersistentCalls:
+        m_Calls: []
+    Scenes: []
+    ResolveOnBuild: 1
+    BuildOptions: 262280
+    ScriptingImplementation: 1
+    AndroidArchitecture: 3
+    AndroidCreateSymbols: 0
+    BuildAppBundle: 1
+    Google: 1
+    Target: 13
+    TargetGroup: 7
+    Color: {r: 1, g: 0, b: 0, a: 1}
+  - Name: myket debug
+    FileName: myket-debug
+    Conditions: []
+    PrebuildActions:
+      m_PersistentCalls:
+        m_Calls: []
+    Scenes: []
+    ResolveOnBuild: 1
+    BuildOptions: 262793
+    ScriptingImplementation: 0
+    AndroidArchitecture: 1
+    AndroidCreateSymbols: 0
+    BuildAppBundle: 0
+    Google: 0
+    Target: 13
+    TargetGroup: 7
+    Color: {r: 0, g: 0.47843137, b: 1, a: 1}
+  - Name: myket release apk
+    FileName: myket-release
+    Conditions: []
+    PrebuildActions:
+      m_PersistentCalls:
+        m_Calls: []
+    Scenes: []
+    ResolveOnBuild: 1
+    BuildOptions: 262280
+    ScriptingImplementation: 1
+    AndroidArchitecture: 3
+    AndroidCreateSymbols: 0
+    BuildAppBundle: 0
+    Google: 0
+    Target: 13
+    TargetGroup: 7
+    Color: {r: 0, g: 0.47754765, b: 1, a: 1}
+  - Name: bazaar debug
+    FileName: bazaar-debug
+    Conditions: []
+    PrebuildActions:
+      m_PersistentCalls:
+        m_Calls: []
+    Scenes: []
+    ResolveOnBuild: 1
+    BuildOptions: 262793
+    ScriptingImplementation: 0
+    AndroidArchitecture: 1
+    AndroidCreateSymbols: 0
+    BuildAppBundle: 0
+    Google: 0
+    Target: 13
+    TargetGroup: 7
+    Color: {r: 0.012557562, g: 0.735849, b: 0, a: 1}
+  - Name: bazaar release apk
+    FileName: bazaar-release
+    Conditions: []
+    PrebuildActions:
+      m_PersistentCalls:
+        m_Calls: []
+    Scenes: []
+    ResolveOnBuild: 1
+    BuildOptions: 262280
+    ScriptingImplementation: 1
+    AndroidArchitecture: 3
+    AndroidCreateSymbols: 0
+    BuildAppBundle: 0
+    Google: 0
+    Target: 13
+    TargetGroup: 7
+    Color: {r: 0.011764706, g: 0.7372549, b: 0, a: 1}
+  - Name: bazaar release aab
+    FileName: bazaar-release
+    Conditions: []
+    PrebuildActions:
+      m_PersistentCalls:
+        m_Calls: []
+    Scenes: []
+    ResolveOnBuild: 1
+    BuildOptions: 262280
+    ScriptingImplementation: 1
+    AndroidArchitecture: 3
+    AndroidCreateSymbols: 0
+    BuildAppBundle: 1
+    Google: 1
+    Target: 13
+    TargetGroup: 7
+    Color: {r: 0.011764706, g: 0.7372549, b: 0, a: 1}
+  - Name: ios debug
+    FileName: ios-debug
+    Conditions: []
+    PrebuildActions:
+      m_PersistentCalls:
+        m_Calls: []
+    Scenes: []
+    ResolveOnBuild: 0
+    BuildOptions: 649
+    ScriptingImplementation: 1
+    AndroidArchitecture: 1
+    AndroidCreateSymbols: 0
+    BuildAppBundle: 0
+    Google: 0
+    Target: 9
+    TargetGroup: 4
+    Color: {r: 0.5674529, g: 0, b: 1, a: 1}
+  - Name: ios release
+    FileName: ios-release
+    Conditions: []
+    PrebuildActions:
+      m_PersistentCalls:
+        m_Calls: []
+    Scenes: []
+    ResolveOnBuild: 0
+    BuildOptions: 136
+    ScriptingImplementation: 1
+    AndroidArchitecture: 3
+    AndroidCreateSymbols: 0
+    BuildAppBundle: 0
+    Google: 0
+    Target: 9
+    TargetGroup: 4
+    Color: {r: 0.5686275, g: 0, b: 1, a: 1}
