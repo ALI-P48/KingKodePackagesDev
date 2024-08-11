@@ -1,19 +1,19 @@
-# Dee1UnityPackages - Dev
-This is the development repository of Dee1 Unity packages.
+# KingKodePackages - Dev
+This is the development repository of KingKode Unity packages.
 
 ## Steps to Add a New Package:
-1. Clone the Dee1PackagesDev repository.
+1. Clone the KingKodePackagesDev repository.
 
-2. In Dee1PackagesDev root folder, Copy the "_TEMPLATE" folder and rename the new folder to:
-"**Dee1-<YOUR_PACKAGE_NAME>-Dev**".
+2. In KingKodePackagesDev root folder, Copy the "_TEMPLATE" folder and rename the new folder to:
+"**KingKode-<YOUR_PACKAGE_NAME>-Dev**".
 
 3. This new folder is going to be your workspace for your new package.
 
 4. Open up the project.
 
-5. Head to the Packages section and find the "Dee1: Template" folder in packages.
+5. Head to the Packages section and find the "kingKode: Template" folder in packages.
 
-6. Rename the "Dee1: Template" folder in windows file explorer to "**Dee1-<YOUR_PACKAGE_NAME>**".
+6. Rename the "kingKode: Template" folder in windows file explorer to "**KingKode-<YOUR_PACKAGE_NAME>**".
 
 7. In Unity, in your package folder, you will find a "package.json" file which is your **Package Manifest**. Edit the package manifest fields (Name, Display name, Version, Description) and hit apply.
 
@@ -53,8 +53,8 @@ This is the development repository of Dee1 Unity packages.
   └── Documentation~
        └── <package-name>.md
 ```
-13. It's done! but you now have to publish your package to Dee1Packages repository. To do that, clone the repository and copy your package from "Dee1PackagesDev\Dee1-<YOUR_PACKAGE_NAME>-Dev\Packages\Dee1-<YOUR_PACKAGE_NAME>" into the Dee1Packages root directory.
+13. It's done! but you now have to publish your package to kingKodePackages repository. To do that, clone the repository and copy your package from "KingKodePackagesDev\KingKode-<YOUR_PACKAGE_NAME>-Dev\Packages\KingKode-<YOUR_PACKAGE_NAME>" into the kingKodePackages root directory.
 
-14. Make sure you publish the changes in both Dee1Packages and Dee1PackagesDev repositories to GitHub.
+14. Make sure you publish the changes in both kingKodePackages and kingKodePackagesDev repositories to GitHub.
 
 > **Thanks for making a good change <3**
